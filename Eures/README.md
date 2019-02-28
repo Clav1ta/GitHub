@@ -49,10 +49,10 @@ Der entwickelte Srcaper kann mit nur einer leichten Abänderung dazu genutzt wer
 
 
 ### Weitere Informationen
-Im Dokument`INTERVIEW_x28_Seco.pdf` findet sich eine Zusammenfassung der Gespräch mit zwei Briefing-Person.
+Im Dokument`INTERVIEW_x28_Seco.pdf` findet sich eine Zusammenfassung der Gespräche mit zwei Briefing-Person.
 
 
-### Knackpunkts des Projektes
+### Knackpunkte des Projektes
 **(1)** Die Plattform Eures erhebt keinen Anspruch auf Vollständigkeit. Es gibt Firmen welche im Ausland direkt rekrutieren (zB über ein persönliches Netzwerk, Plattformen wie Linkedin oder einen Stellenvermittler). Der hier entwickelte Scraper ist lediglich ein Indikator. Aber da keine Zahlen zum Thema Rekrutieren nach Berufen im Ausland existieren kann er doch spannende Trends aufzeigen.  
 **(2)** Der Curl für den Scraper muss jedes Mal neu gezogen werden, da sich die mitgegebene Session-ID nach einiger Zeit ändert. Dieser Schritt wird im Scraper noch manuell durchgeführt, könnte aber auch automatisiert werden.    
 **(3)** Das Resultat würde an Aussagekraft gewinnen, wenn die offenen Stellen statt nur nach den 10 Berufshauptgruppen (jeder Berufsgruppe ist eine einstellige Nummer zugeordnet, oberste Hierarchiestufe nach der Berufsnomenklatura ISCO) auch nach den Berufsklassen (zweistellige Nummer) kategorisiert werden. Allerdings, bei rund 7000 offenen Stellen in der Schweiz ist die Datenbasis für einen zweistelligen Berufscode zu klein. Bei der Entwicklung eines Scrapers für die ganze Plattform würde es sich aber anbieten.     
