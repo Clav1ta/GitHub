@@ -19,18 +19,18 @@ In einem ersten Schritt soll ein Scraper für die Jobinserate von Schweizer Firm
 
 ### Geschätzter Arbeitsaufwand
 **TAG 1:** Auslesen der Jobinserate von Schweizer Firmen      
-**Tag 2:** Datensatz reinigen       
+**Tag 2:** Datensatz klassifieren       
 **Tag 3:** Visualisierung der Daten          
 **Tag 4:** Skizze eines Scrapers für die ganze Plattform    
 **Tag 5:** Dokumentation und Storyskizze    
   
-Der tatsächliche Zeitaufwand ist unter `Zeitprotokoll.csv` protokolliert. Vorallem die Entwicklung des Scrapers für die Schweizer Firmen und die Datenreinigung dauerte doppelt so lange wie erwartet.  
+Der tatsächliche Zeitaufwand ist unter `Zeitprotokoll.csv` protokolliert. Vorallem die Entwicklung des Scrapers für die Schweizer Firmen und die Klassifizierung der Daten dauerte doppelt so lange wie erwartet.  
 
 
 ### Entwicklung Scraper
 Die Jobsuchplattform EURES bietet für Private keine APIs. Die Datenbank muss somit automatisiert ausgelesen (gescrapt) werden um einen Datensatz zu erstellen.
 
-Im Ordner `EURES_CH` sind vier Jupyter Notebooks mit dem entwickelten Programmiercode sowie der Datensatz und die Visualisierungen abgelegt:
+Im Ordner `EURES_CH` sind fünf Jupyter Notebooks mit dem entwickelten Programmiercode sowie der Datensatz und die Visualisierungen abgelegt:
 
 `1_EURES_CH_Entwicklung_Scraper`: In diesem Notebook wird die Webseite analysiert und ein Scraper entwickelt.  
 `2_EURES_CH_Scraper`: In diesem Notebook ist der entwickelte Scraper ohne Kommentar abgelegt.  
